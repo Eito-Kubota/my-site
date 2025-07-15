@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7fff0; /* 黄緑系の淡い背景 */
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #d0ff8a; /* 黄緑色 */
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  margin: 20px;
+}
+
+#activities table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+#activities th,
+#activities td {
+  border: 1px solid #a3d977;
+  padding: 8px;
+  text-align: left;
+}
+
+#activities th {
+  background-color: #eaffc0;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+#contact button {
+  background-color: #a3d977;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #92c865;
+}
+
