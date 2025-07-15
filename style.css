@@ -56,3 +56,19 @@ section {
   background-color: #92c865;
 }
 
+/* About section layout */
+#about .about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#about img {
+  width: 55%;
+  height: auto;
+}
+
+#about .about-text {
+  width: 45%;
+}
+
