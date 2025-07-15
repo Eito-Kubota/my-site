@@ -6,9 +6,30 @@ body {
 }
 
 header {
-  background-color: #d0ff8a; /* 黄緑色 */
+  background-color: #bfffa0; /* 黄緑系の濃い背景 */
   padding: 20px 0;
   text-align: center;
+}
+
+footer {
+  background-color: #bfffa0;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #2d602d;
+}
+
+h2,
+h3,
+h4 {
+  background-color: #eaffc0;
+  padding: 4px;
 }
 
 h1 {
