@@ -52,7 +52,23 @@ section {
   cursor: pointer;
 }
 
-#contact button:hover {
-  background-color: #92c865;
+  #contact button:hover {
+    background-color: #92c865;
+  }
+
+/* About section layout */
+#about .about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#about img {
+  max-width: 45%;
+  height: auto;
+}
+
+#about .about-text {
+  flex: 1;
 }
 
